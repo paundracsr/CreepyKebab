@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #240000; /* Adjust as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #550303; /* Adjust as needed */
+    color: #ccc;
+}
+
+/* Header */
+.header {
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+.header .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header .navigation li {
+    margin-right: 20px;
+}
+
+.header .navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Hero */
+.hero {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column; /* Change flex direction for smaller screens */
+    max-width: 900px; /* Adjust max width as needed */
+    margin: 0 auto;
+}
+
+.hero-text {
+    text-align: left; /* Align text to the left */
+    padding-right: 0; /* Remove padding for smaller screens */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.hero-title {
+    font-size: 36px;
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About */
+.about {
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Menu */
+.menu, .testimonials, .contact, footer {
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+    padding: 50px 0; /* Reduced padding for smaller screens */
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: calc(33.33% - 40px); /* Adjusting item width for smaller screens */
+    margin: 0 20px 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item-price {
+    color: #ff0000; /* Red color */
+}
+
+.testimonial {
+    max-width: 80%; /* Adjusting testimonial width for smaller screens */
+    margin: 0 auto 40px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #5e5d5d; /* Red color */
+}
+.customer-info {
+    color: #ff0000; /* Red color */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px); /* Adjusting input width for smaller screens */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Dark Theme */
+.contact {
+    background-color: #000000; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact span {
+    color: #550303;
+    padding-bottom: 20px;
+}
+.contact p {
+    color: #ccc; /* Light gray text color */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px); /* Adjusting input width for smaller screens */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #240000; /* Adjust as needed */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #550303; /* Adjust as needed */
+}
+
+
+.contact-form .btn-submit {
+    padding: 10px 20px;
+    background-color: #240000; /* Adjust as needed */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-submit:hover {
+    background-color: #550303; /* Adjust as needed */
+}
+/* Footer styles */
+footer {
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+    padding: 50px 0; /* Reduced padding for smaller screens */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    color: #ff0000;
+}
+
+
+
+
+
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 40px); /* Adjusting item width for smaller screens */
+    }
+
+    .testimonial {
+        max-width: 90%; /* Adjusting testimonial width for smaller screens */
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .menu-item {
+        width: calc(100% - 40px); /* Adjusting item width for smaller screens */
+    }
+
+    .testimonial {
+        max-width: 100%; /* Adjusting testimonial width for smaller screens */
+    }
+
+   
+}
